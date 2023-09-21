@@ -1,5 +1,4 @@
 import { createContext, useReducer, useEffect } from 'react';
-import { json } from 'react-router-dom';
 
 export const AuthContext = createContext();
 
