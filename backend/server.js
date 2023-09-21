@@ -12,7 +12,7 @@ const app = express();
 // middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: process.env.REACT_APP_API_URL,
 }));
 
 app.use((req, res, next) => {
